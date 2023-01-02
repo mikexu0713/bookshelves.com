@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export const SearchBooksHeader = () => {
   return (
     <div className="p-5 mb-4 bg-dark">
@@ -10,13 +11,13 @@ export const SearchBooksHeader = () => {
           <p className="m-7 fs-4">
             Bookmark and keep track your favorite books
           </p>
-          <a
+          <Link
             type="button"
             className="btn main-color btn-lg text-white"
-            href="#"
+            to="/search"
           >
             Search top books
-          </a>
+          </Link>
         </div>
       </div>
     </div>
